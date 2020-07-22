@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import gzip
 import pathlib
 import shutil
 import tempfile
@@ -122,6 +123,15 @@ def prepare(df, save=True):
     return X_df_tr, X_df_val, y_df_tr, y_df_val
 
 
+def compress(src):
+    for split in ['train', 'val']:
+        for table in ['entities', 'targets']:
+            filename = src / split / f'{table}.csv'
+            with filename.open('rb') as fin:
+                with gzip.open(filename.with_suffix('.csv.gz'), 'wb') as fout:
+                    shutil.copyfileobj(fin, fout)
+
+
 def upload(src):
     if boto3 is None:
         raise NotImplementedError
@@ -134,16 +144,16 @@ def upload(src):
 
     # upload files
     for split in ['train', 'val']:
-        for kind in ['entities', 'targets']:
-            filename = src / split / f'{kind}.csv'
-            objectname = f'census/{split}/{kind}.csv'
-            s3.upload_file(filename, bucket, objectname)
+        for table in ['entities', 'targets']:
+            for suffix in ['.csv', '.csv.gz']:
+                filename = src / split / (table + suffix)
+                objectname = f'census/{split}/{table}{suffix}'
+                s3.upload_file(str(filename), bucket, objectname)
 
 
 @click.command()
-@click.option('-u/--upload', '_upload',
-              is_flag=True,
-              help='upload files to s3')
+@click.option('-u', '--upload', '_upload',
+              is_flag=True, default=False, help='upload files to s3')
 def main(_upload):
     download_data(cwd)
     person_file = "psam_p25.csv"
@@ -152,6 +162,7 @@ def main(_upload):
     household = pd.read_csv(household_file)
     df = merge(person, household)
     prepare(df)
+    compress(cwd)
     if _upload:
         upload(cwd)
     print("done")

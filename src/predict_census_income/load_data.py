@@ -18,7 +18,7 @@ def load_data(input_dir=None):
         y = load_table_from_config(input_dir, targets_config)
     else:
         root = 'https://mit-dai-ballet.s3.amazonaws.com/census'
-        X = pd.read_csv(root + '/train/entities.csv')
-        y = pd.read_csv(root + '/train/targets.csv')
+        X = pd.read_csv(root + '/train/entities.csv.gz')
+        y = pd.read_csv(root + '/train/targets.csv.gz')
 
     return X, y
