@@ -150,6 +150,8 @@ def upload(src):
                 objectname = f'census/{split}/{table}{suffix}'
                 s3.upload_file(str(filename), bucket, objectname)
 
+    # TODO - new files do not retain public read permissions, have to use CLI
+    # or UI to set.
 
 @click.command()
 @click.option('-u', '--upload', '_upload',
