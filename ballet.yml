@@ -1,46 +1,45 @@
-default:
-  version: 0.7.4
-  project:
-    project_name: Predict Census Income
-    project_slug: ballet-predict-census-income
-    package_slug: predict_census_income
-  problem:
-    problem_type: classification
-    problem_type_details:
-      scorer: roc_auc
-      classification_type: binary
-  contrib:
-    module_name: predict_census_income.features.contrib
-    module_path: src/predict_census_income/features/contrib
-  validation:
-    project_structure_validator: ballet.validation.project_structure.validator.ProjectStructureValidator
-    feature_api_validator: ballet.validation.feature_api.validator.FeatureApiValidator
-    feature_accepter: ballet.validation.feature_acceptance.validator.GFSSFAccepter
-    feature_pruner: ballet.validation.feature_pruning.validator.GFSSFPruner
-  github:
-    github_owner: HDI-Project
-    remote: origin
-    pruning_action: commit_to_master
-    auto_merge_accepted_features: yes
-    auto_close_rejected_features: yes
-  data:
-    s3_bucket:
-    s3_bucket_region:
-    train: data/train
-    entities_table_name: entities
-    targets_table_name: targets
-    tables:
-      -
-        name: entities
-        path: entities.csv
-        pd_read_kwargs:
-          index_col: 0
-          header: 0
-          sep: ","
-      -
-        name: targets
-        path: targets.csv
-        pd_read_kwargs:
-          index_col: 0
-          header: 0
-          sep: ","
+version: 0.7.5
+project:
+  project_name: Predict Census Income
+  project_slug: ballet-predict-census-income
+  package_slug: predict_census_income
+problem:
+  problem_type: classification
+  problem_type_details:
+    scorer: roc_auc
+    classification_type: binary
+contrib:
+  module_name: predict_census_income.features.contrib
+  module_path: src/predict_census_income/features/contrib
+validation:
+  project_structure_validator: ballet.validation.project_structure.validator.ProjectStructureValidator
+  feature_api_validator: ballet.validation.feature_api.validator.FeatureApiValidator
+  feature_accepter: ballet.validation.feature_acceptance.validator.GFSSFAccepter
+  feature_pruner: ballet.validation.feature_pruning.validator.GFSSFPruner
+github:
+  github_owner: HDI-Project
+  remote: origin
+  pruning_action: commit_to_master
+  auto_merge_accepted_features: yes
+  auto_close_rejected_features: yes
+data:
+  s3_bucket:
+  s3_bucket_region:
+  train: data/train
+  entities_table_name: entities
+  targets_table_name: targets
+  tables:
+    -
+      name: entities
+      path: entities.csv
+      pd_read_kwargs:
+        index_col: 0
+        header: 0
+        sep: ","
+    -
+      name: targets
+      path: targets.csv
+      pd_read_kwargs:
+        index_col: 0
+        header: 0
+        sep: ","
