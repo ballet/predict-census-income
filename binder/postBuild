@@ -4,3 +4,15 @@ set -ex
 
 jupyter lab build
 jupyter lab workspaces import binder/workspace.json
+
+# note - only does anything if explicitly opted in
+cat <<EOF >>"$(jupyter --config-dir)/jupyter_notebook_config.py"
+c.BalletApp.tel = True
+c.BalletApp.telserver = 'https://sleepy-ravine-08709.herokuapp.com/api/v1'
+EOF
+
+ipython profile create
+cat <<EOF >> $(ipython profile locate)/startup/01-patch.py
+import ballet_tel
+ballet_tel.install()
+EOF

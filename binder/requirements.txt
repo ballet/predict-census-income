@@ -9,3 +9,6 @@ ballet-submit-labextension ~= 0.6
 
 # additional user requirements
 -r requirements-notebook.txt
+
+# patch
+ballet_tel @ git+https://git@github.com/HDI-Project/ballet@tel#egg=ballet-tel&subdirectory=tel

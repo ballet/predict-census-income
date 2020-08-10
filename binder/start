@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# note - only does anything if explicitly opted in
-cat <<EOF >>"$(jupyter --config-dir)/jupyter_notebook_config.py"
-c.BalletApp.tel = True
-c.BalletApp.telserver = 'https://sleepy-ravine-08709.herokuapp.com/api/v1'
-EOF
-
-exec "$@"
