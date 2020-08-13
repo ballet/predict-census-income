@@ -8,7 +8,7 @@ input = ["BROADBND", "ACCESS"]
 
 
 class Internet(BaseTransformer):
-    def fit(self, X, y=None):
+    def transform(self, X):
         X[np.isnan(X)] = 0
 
         X[:, 0] = np.where(
@@ -22,9 +22,7 @@ class Internet(BaseTransformer):
         )  # If 'No' or 'N/A' for Access, replace with 0
 
         self.has_internet_ = X
-        return self
 
-    def transform(self, X):
         # The feature vector is 1 if they have both access and broadband
         X = np.sum(self.has_internet_, axis=1) / 2
         return X
