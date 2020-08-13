@@ -1,4 +1,4 @@
-# installs ballet_predict_census_income when run from root directory
+# installs predict_census_income when run from root directory
 -e .
 
 # lower limit on jlab
