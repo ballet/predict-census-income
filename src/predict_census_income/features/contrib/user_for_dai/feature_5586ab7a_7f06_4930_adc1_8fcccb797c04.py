@@ -9,6 +9,7 @@ input = ["BROADBND", "ACCESS"]
 
 class Internet(BaseTransformer):
     def transform(self, X):
+        X = np.array(X)
         X[np.isnan(X)] = 0
 
         X[:, 0] = np.where(
