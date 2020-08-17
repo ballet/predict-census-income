@@ -53,3 +53,9 @@ The prediction target is whether an individual respondent will earn more than $8
 > determine whether a person makes over 50K a year.
 
 Thus we adjust for inflation from 1994 to 2018.
+
+## Getting help
+
+* Read over Ballet's [Frequently Asked Questions](https://hdi-project.github.io/ballet/faq.html) page
+* Join the project chat:
+    [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://ballet.zulipchat.com/join/donkqb7awjxmzypdbv62abgh/)
