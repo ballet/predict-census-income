@@ -1,5 +1,5 @@
 [![ballet](https://img.shields.io/static/v1?label=built%20with&message=ballet&color=FCDD35)](https://github.com/HDI-Project/ballet)
-[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://ballet.zulipchat.com/join/donkqb7awjxmzypdbv62abgh/)
+[![project chat](https://badges.gitter.im/ballet-project/predict-census-income.svg)](https://gitter.im/ballet-project/predict-census-income?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 <a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://mybinder.org/badge_logo.svg" style="max-width:100%;"></a>
 
 # Predict Census Income
@@ -58,4 +58,4 @@ Thus we adjust for inflation from 1994 to 2018.
 
 * Read over Ballet's [Frequently Asked Questions](https://hdi-project.github.io/ballet/faq.html) page
 * Join the project chat:
-    [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://ballet.zulipchat.com/join/donkqb7awjxmzypdbv62abgh/)
+    [![project chat](https://badges.gitter.im/ballet-project/predict-census-income.svg)](https://gitter.im/ballet-project/predict-census-income?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
