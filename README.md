@@ -8,6 +8,8 @@ This is a collaborative predictive modeling project built on the [ballet framewo
 
 This project contains a feature engineering pipeline and associated models that can be used to **predict personal income from raw survey responses** to the US Census American Community Survey. The model built from features submitted by the community can then be used to optimize administration of the survey, direct public policy interventions, and assist empirical researchers.
 
+[**See dates/times for upcoming virtual collaboration hours**](#virtual-collaboration-hours), opportunities to work at the same time as other collaborators and ask/answer questions in the chat.
+
 ## Join the collaboration
 
 Are you interested in joining the collaboration?
@@ -16,10 +18,10 @@ Are you interested in joining the collaboration?
 
 First, get acquainted with the Ballet framework if you are not yet familiar.
 
-1. Look over the [Ballet Contributor Guide](https://hdi-project.github.io/ballet/contributor_guide.html)
-2. Look over the [Ballet Feature Engineering Guide](https://hdi-project.github.io/ballet/feature_engineering_guide.html)
-
-Once you have done so, you can check out the features that are currently part of this project, in the contributed features directory ([`src/predict_census_income/features/contrib`](src/predict_census_income/features/contrib)).
+- Look over the [Ballet Contributor Guide](https://hdi-project.github.io/ballet/contributor_guide.html)
+- Look over the [Ballet Feature Engineering Guide](https://hdi-project.github.io/ballet/feature_engineering_guide.html)
+- Check out the features that are currently part of this project, in the contributed features directory ([`src/predict_census_income/features/contrib`](src/predict_census_income/features/contrib)).
+- Check out the [Analysis.ipynb](notebooks/Analysis.ipynb) notebook for some starter code
 
 ### Your task
 
@@ -31,6 +33,16 @@ Once you have done so, you can check out the features that are currently part of
 
 2. Alternately, you can use your preferred tools and development environment to create and submit a feature from your own machine. You can read about the local development workflow [here](https://hdi-project.github.io/ballet/contributor_guide.html#local-feature-development-workflow).
 
+### Virtual collaboration hours
+
+We are hosting several Virtual Collaboration Hours (VCH) in which we will work together on feature engineering and help each other with ideas and implementation. The VCH will start with a short video presentation aimed at beginners introducing Ballet and this predict-census-income project, with an opportunity for Q&A. Then, we will split off to work and will be chatting in the [Gitter chat](https://gitter.im/ballet-project/predict-census-income).
+
+Schedule (check back here to confirm!)
+
+- [Wed, Sep 9 5pm-6pm ET](./docs/vch-event-0.ics)
+- [Sun, Sep 13, 1pm-2pm ET](./docs/vch-event-1.ics)
+- [Wed, Sep 16, 8am-9am ET](./docs/vch-event-2.ics)
+- [Mon, Sep 21, 5pm-6pm ET](./docs/vch-event-3.ics)
 
 ## Dataset
 
