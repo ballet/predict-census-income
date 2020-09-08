@@ -1,4 +1,4 @@
-version: 0.7.9
+version: 0.7.10
 project:
   project_name: Predict Census Income
   project_slug: ballet-predict-census-income
