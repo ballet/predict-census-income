@@ -14,15 +14,6 @@ This project contains a feature engineering pipeline and associated models that 
 
 Are you interested in joining the collaboration?
 
-### Getting started
-
-First, get acquainted with the Ballet framework if you are not yet familiar.
-
-- Look over the [Ballet Contributor Guide](https://hdi-project.github.io/ballet/contributor_guide.html)
-- Look over the [Ballet Feature Engineering Guide](https://hdi-project.github.io/ballet/feature_engineering_guide.html)
-- Check out the features that are currently part of this project, in the contributed features directory ([`src/predict_census_income/features/contrib`](src/predict_census_income/features/contrib)).
-- Check out the [Analysis.ipynb](notebooks/Analysis.ipynb) notebook for some starter code
-
 ### Your task
 
 **Your task is to create and submit one feature to the project.**
@@ -32,6 +23,15 @@ First, get acquainted with the Ballet framework if you are not yet familiar.
     <a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow" ><img src="https://mybinder.org/badge_logo.svg" style="max-width:100%;"></a>
 
 2. Alternately, you can use your preferred tools and development environment to create and submit a feature from your own machine. You can read about the local development workflow [here](https://hdi-project.github.io/ballet/contributor_guide.html#local-feature-development-workflow).
+
+### Getting started
+
+First, get acquainted with the Ballet framework if you are not yet familiar.
+
+- Look over the [Ballet Contributor Guide](https://hdi-project.github.io/ballet/contributor_guide.html)
+- Look over the [Ballet Feature Engineering Guide](https://hdi-project.github.io/ballet/feature_engineering_guide.html)
+- Check out the features that are currently part of this project, in the contributed features directory ([`src/predict_census_income/features/contrib`](src/predict_census_income/features/contrib)).
+- Check out the [Analysis.ipynb](notebooks/Analysis.ipynb) notebook for some starter code
 
 ### Virtual collaboration hours
 
@@ -52,6 +52,7 @@ The input data is the raw survey responses to the 2018 US Census American Commun
 
 * The data documentation can be viewed [here](https://mit-dai-ballet.s3.amazonaws.com/census/ACS2018_PUMS_README.pdf)
 * The data dictionary can be viewed [here](https://mit-dai-ballet.s3.amazonaws.com/census/PUMS_Data_Dictionary_2018.pdf) in PDF form, or [here](https://mit-dai-ballet.s3.amazonaws.com/census/PUMS_Data_Dictionary_2018.csv) in CSV form.
+* Many additional resources about the ACS can be viewed [here](https://acsdatacommunity.prb.org/acs-data-products--resources/).
 * The dataset is created by merging the "household" and "person" parts of the survey. Thus one row of the dataset contains the responses for one person to both the household and person surveys. A person is identified by a unique `SERIALNO`. A set of "reasonable" rows is filtered as follows: (1) individuals older than 16 (2) personal income greater than $100 (3) hours worked in a typical week greater than 0.
 
 The full script that minimally prepares the data is [here](.bin/split/main.py).
