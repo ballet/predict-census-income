@@ -17,8 +17,8 @@ validation:
   feature_accepter: 
     name: ballet.validation.feature_acceptance.validator.GFSSFAccepter
     params:
-      lmbda_1: 1e-10
-      lmbda_2: 1e-10
+      lmbda_1: 1e-20
+      lmbda_2: 1e-20
   feature_pruner: ballet.validation.feature_pruning.validator.GFSSFPruner
 github:
   github_owner: HDI-Project
