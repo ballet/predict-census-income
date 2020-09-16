@@ -73,11 +73,11 @@ Thus we adjust for inflation from 1994 to 2018.
 * Join the project chat:
     [![project chat](https://badges.gitter.im/ballet-project/predict-census-income.svg)](https://gitter.im/ballet-project/predict-census-income?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-## Using the project
+## Usage
 
 To use the feature engineering pipeline:
 
-```
+```python
 from predict_census_income.api import api
 X_df, y_df = api.load_data()
 pipeline = api.pipeline
@@ -87,7 +87,7 @@ features = pipeline.fit_transform(X_df, y_df)
 
 To use a sample model:
 
-```
+```python
 from predict_census_income.models import train, predict
 from predict_census_income.models.logistic_regression import create_logistic_regression_model
 X_df, y_df = api.load_data()
