@@ -10,6 +10,7 @@ jupyter nbextension disable --py jupyter_offlinenotebook --sys-prefix
 jupyter lab build --dev-build=False --minimize=False
 
 # note - only does anything if explicitly opted in
+mkdir -p "$(jupyter --config-dir)"  # ugh
 cat <<EOF >>"$(jupyter --config-dir)/jupyter_notebook_config.py"
 c.BalletApp.tel = True
 c.BalletApp.telserver = 'https://sleepy-ravine-08709.herokuapp.com/api/v1'
