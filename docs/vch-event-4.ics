@@ -5,10 +5,10 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:f61a3268-7c65-4cf9-8509-f89e408ba50b
+UID:0e36f1c8-6b37-4566-b058-4944e614b8b2
 SUMMARY:Ballet predict-census-income virtual collaboration hour
 DTSTAMP:20200929T213128Z
-DTSTART:20200921T210000Z
+DTSTART:20201003T150000Z
 DESCRIPTION:The Virtual Collaboration Hour will start off with a short vide
 	o presentation aimed at beginners introducing Ballet and the predict-censu
 	s-income project. (Link will be posted in Gitter.) Then\, we will split of

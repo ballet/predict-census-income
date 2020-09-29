@@ -5,14 +5,14 @@ PRODID:adamgibbons/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:a139290d-4563-4bce-84ef-abaee19ae38c
+UID:72c93901-ce28-4b8e-a8da-4e087954bb92
 SUMMARY:Ballet predict-census-income virtual collaboration hour
-DTSTAMP:20200907T212256Z
+DTSTAMP:20200929T213128Z
 DTSTART:20200909T210000Z
 DESCRIPTION:The Virtual Collaboration Hour will start off with a short vide
 	o presentation aimed at beginners introducing Ballet and the predict-censu
 	s-income project. (Link will be posted in Gitter.) Then\, we will split of
-	f to work and will be chatting in the Gitter chat.\n\nThe Gitter link is:
+	f to work and will be chatting in the Gitter chat.\n\nThe Gitter link is: 
 	https://gitter.im/ballet-project/predict-census-income\n
 URL:https://gitter.im/ballet-project/predict-census-income
 ORGANIZER;CN=Micah Smith:mailto:micahs@mit.edu

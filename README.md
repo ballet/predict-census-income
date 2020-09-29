@@ -43,6 +43,9 @@ Schedule (check back here to confirm!)
 - [Sun, Sep 13, 1pm-2pm ET](./docs/vch-event-1.ics)
 - [Wed, Sep 16, 8am-9am ET](./docs/vch-event-2.ics)
 - [Mon, Sep 21, 5pm-6pm ET](./docs/vch-event-3.ics)
+- [Sat, Oct 3, 11am-12pm ET](./docs/vch-event-4.ics)
+
+You can also see [a recording of a recent VCH](https://www.youtube.com/watch?v=heeRkRtnN1s).
 
 ## Dataset
 
