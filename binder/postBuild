@@ -8,6 +8,7 @@ jupyter nbextension disable --py jupyter_offlinenotebook --sys-prefix
 
 # TODO build args seem to be necessary in low memory environment
 jupyter lab build --dev-build=False --minimize=False
+jupyter lab workspaces import binder/workspace.json
 
 # note - only does anything if explicitly opted in
 mkdir -p "$(jupyter --config-dir)"  # ugh
