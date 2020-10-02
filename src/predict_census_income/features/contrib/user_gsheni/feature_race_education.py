@@ -58,5 +58,5 @@ transformer = [
 ] 
 
 name = "Education and Race Binned"
-description = "Educate was categorized with higher values corresponding to more attainment, Race was categorized by more representation having higher values. Values were then summed." 
+description = "Education was categorized with higher values corresponding to more attainment, Race was categorized by more representation having higher values. Values were then summed." 
 feature = Feature(input, transformer, name)
