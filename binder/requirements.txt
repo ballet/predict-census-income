@@ -5,10 +5,7 @@
 jupyterlab >= 2.0
 
 # lab extension
-ballet-submit-labextension ~= 0.7
+ballet-assemble ~= 0.8
 
 # additional user requirements
 -r requirements-notebook.txt
-
-# patch
-ballet_tel @ git+https://git@github.com/HDI-Project/ballet@abb49f2888fa8366339e059f1507b26623e6cb09#egg=ballet-tel&subdirectory=tel

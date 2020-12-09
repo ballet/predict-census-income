@@ -18,7 +18,7 @@ Are you interested in joining the collaboration?
 
 **Your task is to create and submit one feature to the project.**
 
-1. The easiest way to get started is to launch an interactive Jupyter Lab session to hack on this repository. You can read more about this development workflow [here](https://hdi-project.github.io/ballet/contributor_guide.html#cloud-feature-development-workflow).
+1. The easiest way to get started and hack on this repository is to launch Assemblé, a interactive development environment built on top of Jupyter Lab and hosted in the cloud. You can read more about this development workflow [here](https://hdi-project.github.io/ballet/contributor_guide.html#cloud-feature-development-workflow).
 
     <a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow" ><img src="https://mybinder.org/badge_logo.svg" style="max-width:100%;"></a>
 
