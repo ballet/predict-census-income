@@ -1,10 +1,10 @@
-[![ballet](https://img.shields.io/static/v1?label=built%20with&message=ballet&color=FCDD35)](https://github.com/HDI-Project/ballet)
+[![ballet](https://img.shields.io/static/v1?label=built%20with&message=ballet&color=FCDD35)](https://ballet.github.io)
 [![project chat](https://badges.gitter.im/ballet-project/predict-census-income.svg)](https://gitter.im/ballet-project/predict-census-income?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-<a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://hdi-project.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
+<a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://ballet.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
 
 # Predict Census Income
 
-This is a collaborative predictive modeling project built on the [ballet framework](https://github.com/HDI-Project/ballet).
+This is a collaborative predictive modeling project built on the [ballet framework](https://ballet.github.io).
 
 This project contains a feature engineering pipeline and associated models that can be used to **predict personal income from raw survey responses** to the US Census American Community Survey. The model built from features submitted by the community can then be used to optimize administration of the survey, direct public policy interventions, and assist empirical researchers.
 
