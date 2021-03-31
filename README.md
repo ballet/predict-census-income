@@ -18,18 +18,18 @@ Are you interested in joining the collaboration?
 
 **Your task is to create and submit one feature to the project.**
 
-1. The easiest way to get started and hack on this repository is to launch Assemblé, a interactive development environment built on top of Jupyter Lab and hosted in the cloud. You can read more about this development workflow [here](https://hdi-project.github.io/ballet/contributor_guide.html#cloud-feature-development-workflow).
+1. The easiest way to get started and hack on this repository is to launch Assemblé, a interactive development environment built on top of Jupyter Lab and hosted in the cloud. You can read more about this development workflow [here](https://ballet.github.io/ballet/contributor_guide.html#cloud-feature-development-workflow).
 
-    <a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://hdi-project.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
+    <a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://ballet.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
 
-2. Alternately, you can use your preferred tools and development environment to create and submit a feature from your own machine. You can read about the local development workflow [here](https://hdi-project.github.io/ballet/contributor_guide.html#local-feature-development-workflow).
+2. Alternately, you can use your preferred tools and development environment to create and submit a feature from your own machine. You can read about the local development workflow [here](https://ballet.github.io/ballet/contributor_guide.html#local-feature-development-workflow).
 
 ### Getting started
 
 First, get acquainted with the Ballet framework if you are not yet familiar.
 
-- Look over the [Ballet Contributor Guide](https://hdi-project.github.io/ballet/contributor_guide.html)
-- Look over the [Ballet Feature Engineering Guide](https://hdi-project.github.io/ballet/feature_engineering_guide.html)
+- Look over the [Ballet Contributor Guide](https://ballet.github.io/ballet/contributor_guide.html)
+- Look over the [Ballet Feature Engineering Guide](https://ballet.github.io/ballet/feature_engineering_guide.html)
 - Check out the features that are currently part of this project, in the contributed features directory ([`src/predict_census_income/features/contrib`](src/predict_census_income/features/contrib)).
 - Check out the [Analysis.ipynb](notebooks/Analysis.ipynb) notebook for some starter code
 
@@ -72,7 +72,7 @@ Thus we adjust for inflation from 1994 to 2018.
 
 ## Getting help
 
-* Read over Ballet's [Frequently Asked Questions](https://hdi-project.github.io/ballet/faq.html) page
+* Read over Ballet's [Frequently Asked Questions](https://ballet.github.io/ballet/faq.html) page
 * Join the project chat:
     [![project chat](https://badges.gitter.im/ballet-project/predict-census-income.svg)](https://gitter.im/ballet-project/predict-census-income?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
