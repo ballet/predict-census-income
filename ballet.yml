@@ -1,7 +1,7 @@
 version: 0.13.0
 project:
   project_name: Predict Census Income
-  project_slug: ballet-predict-census-income
+  project_slug: predict-census-income
   package_slug: predict_census_income
 problem:
   problem_type: classification
@@ -14,14 +14,14 @@ contrib:
 validation:
   project_structure_validator: ballet.validation.project_structure.validator.ProjectStructureValidator
   feature_api_validator: ballet.validation.feature_api.validator.FeatureApiValidator
-  feature_accepter: 
+  feature_accepter:
     name: ballet.validation.feature_acceptance.validator.GFSSFAccepter
     params:
       lmbda_1: 1e-20
       lmbda_2: 1e-20
   feature_pruner: ballet.validation.feature_pruning.validator.GFSSFPruner
 github:
-  github_owner: HDI-Project
+  github_owner: ballet
   remote: origin
   pruning_action: commit_to_master
   auto_merge_accepted_features: yes

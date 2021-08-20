@@ -1,6 +1,6 @@
 [![ballet](https://img.shields.io/static/v1?label=built%20with&message=ballet&color=FCDD35)](https://ballet.github.io)
 [![project chat](https://badges.gitter.im/ballet-project/predict-census-income.svg)](https://gitter.im/ballet-project/predict-census-income?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-<a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://ballet.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
+<a href="https://mybinder.org/v2/gh/ballet/predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://ballet.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
 
 # Predict Census Income
 
@@ -20,7 +20,7 @@ Are you interested in joining the collaboration?
 
 1. The easiest way to get started and hack on this repository is to launch Assemblé, a interactive development environment built on top of Jupyter Lab and hosted in the cloud. You can read more about this development workflow [here](https://ballet.github.io/ballet/contributor_guide.html#cloud-feature-development-workflow).
 
-    <a href="https://mybinder.org/v2/gh/HDI-Project/ballet-predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://ballet.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
+    <a href="https://mybinder.org/v2/gh/ballet/predict-census-income/master?urlpath=lab" target="_blank" rel="nofollow"><img src="https://ballet.github.io/ballet/_static/launch-assemble.svg" style="max-width:100%;"></a>
 
 2. Alternately, you can use your preferred tools and development environment to create and submit a feature from your own machine. You can read about the local development workflow [here](https://ballet.github.io/ballet/contributor_guide.html#local-feature-development-workflow).
 
