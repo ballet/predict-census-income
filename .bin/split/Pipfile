@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 scikit-learn = "*"
 pandas = "*"
-pypums = "*"
+pypums = "0.0.7"
 boto3 = "*"
 
 [requires]
